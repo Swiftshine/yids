@@ -4,9 +4,9 @@
 #include "types.h"
 
 struct Sprite;
-typedef struct SpriteBuildInfo { } SpriteBuildInfo;
 
 // Size: Unknown
+typedef struct SpriteBuildInfo { } SpriteBuildInfo;
 
 typedef void (*SpriteCreateFunction)(Sprite* pSprite, SpriteBuildInfo* pBuildInfo);
 typedef void (*SpriteUpdateFunction)(Sprite* pSprite);

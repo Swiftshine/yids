@@ -1,8 +1,8 @@
 #ifndef CHARACOIN_H
 #define CHARACOIN_H
 
-struct CharacterCoin {
-    
+typedef struct CharacterCoin {
+
 };
 
 void CharacterCoin_Create(CharacterCoin* sprite/*,more?*/);
